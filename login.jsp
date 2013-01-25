@@ -1,23 +1,26 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+ï»¿<%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
-<title>µÇÂ¼Ò³Ãæ</title>
+<title>ç™»å½•é¡µé¢</title>
 </head>
 <body>
-<!-- Ìá½»ÇëÇó²ÎÊýµÄ±íµ¥ -->
+<!-- æäº¤è¯·æ±‚å‚æ•°çš„è¡¨å• -->
 	<form action="Login.action" method="post">
 		<table align="center">
-			<caption><h3>ÓÃ»§µÇÂ¼</h3></caption>
+			<caption><h3>ç”¨æˆ·ç™»å½•</h3></caption>
 			 <tr>
-			 <!-- ÓÃ»§ÃûµÄ±íµ¥Óò -->
-				<td>ÓÃ»§Ãû£º<input type="text" name="username"/></td>
+			 <!-- ç”¨æˆ·åçš„è¡¨å•åŸŸ -->
+				<td>ç”¨æˆ·åï¼š<input type="text" name="username"/></td>
 			</tr>
 			<tr>
-			 <!-- ÃÜÂëµÄ±íµ¥Óò -->
-				<td>ÃÜ&nbsp;&nbsp;Âë£º<input type="text" name="password"/></td>
+			 <!-- å¯†ç çš„è¡¨å•åŸŸ -->
+				<td>å¯†&nbsp;&nbsp;ç <input type="text" name="password"/></td>
 			</tr>
 			<tr align="center">
-				<td colspan="2"><input type="submit" value="µÇÂ¼"/><input type="reset" value="ÖØÌî" /></td>
+				<td colspan="2">
+					<input type="submit" value="ç™»å½•"/>
+					<input type="reset" value="é‡å¡«" />
+				</td>
 			</tr>
 		</table>
 	</form>
